@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas Favoritos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mis Artistas Favoritos</h1>
+    <div class="container">
+        <div class="artist" onclick="toggleInfo(this, 'metricasfrias')">
+            <img src="metricasfrias.jpg" alt="Métricas Frías">
+            <p class="info">Métricas Frías es un artista de rap colombiano conocido por su estilo lírico profundo.</p>
+            <img class="album" src="album_metricasfrias.jpg" alt="Álbum Representativo" hidden>
+        </div>
+
+        <div class="artist" onclick="toggleInfo(this, 'silvestre')">
+            <img src="silvestre.jpg" alt="Silvestre Dangond">
+            <p class="info">Silvestre Dangond es un cantante de vallenato, famoso por modernizar el género.</p>
+            <img class="album" src="album_silvestre.jpg" alt="Álbum Representativo" hidden>
+        </div>
+
+        <div class="artist" onclick="toggleInfo(this, 'granuja')">
+            <img src="granuja.jpg" alt="Granuja">
+            <p class="info">Granuja es un rapero colombiano con un estilo underground y letras introspectivas.</p>
+            <img class="album" src="album_granuja.jpg" alt="Álbum Representativo" hidden>
+        </div>
+
+        <div class="artist" onclick="toggleInfo(this, 'losbetos')">
+            <img src="losbetos.jpg" alt="Los Betos">
+            <p class="info">Los Betos son un dúo icónico del vallenato clásico, conocidos por su legado musical.</p>
+            <img class="album" src="album_losbetos.jpg" alt="Álbum Representativo" hidden>
+        </div>
+
+        <div class="artist" onclick="toggleInfo(this, 'poncho')">
+            <img src="poncho.jpg" alt="Poncho Zuleta">
+            <p class="info">Poncho Zuleta es una leyenda del vallenato, con una carrera llena de éxitos.</p>
+            <img class="album" src="album_poncho.jpg" alt="Álbum Representativo" hidden>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
